@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+:root{
+  --my-hue: 80;
+}
+
+body{
+  background: hsl(var(--my-hue), 100%, 90%);
+  width: 100%;
+  margin: 0;
+}
+/* ヘッダー----------------------------------------- */
+header{
+  background: hsl(var(--my-hue), 80%, 70%);
+  width: 100%;
+  height: 91px;
+}
+.header-one{
+  position: relative;
+  left: 24px;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 0;
+}
+.header-two{
+  position: relative;
+  left: 48px;
+  top: -32px; 
+  font-family: 'Amatic SC', cursive;
+}
+
+/* ページヘッダー------------------------------------- */
+
+.page-header{
+  text-align: center;
+  margin-top: 72px;
+}
+
+/* プロフィール----------------------------------------- */
+
+.prf-area, .skill-area, .pf-area{
+  margin: 45px 240px;
+  line-height: 2rem;
+  position: relative;
+}
+.prf-img{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 500px;
+  bottom: 200px;
+}
+
+/* フッター----------------------------------------------------- */
+
+footer{
+  padding: 12px 0;
+  background:hsl(var(--my-hue), 55%, 40%);
+  text-align: center;
+  color: #fff;
+}
